@@ -32,7 +32,7 @@ az role assignment create --assignee "$ASSIGNEE" --role "Storage Blob Data Contr
 ## Usage
 
 ```bash
-uv run sync-notebooks/sync_notebooks.py
+uv run sync_notebooks/sync_notebooks.py
 ```
 
 The script will:

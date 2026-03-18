@@ -1,6 +1,6 @@
 # azureml-client
 
-A collection of Azure ML utility scripts and use cases.
+A collection of Azure ML Python SDKv2 sample codes.
 
 ## Prerequisites
 

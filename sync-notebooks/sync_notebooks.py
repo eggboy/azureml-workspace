@@ -40,7 +40,7 @@ def main() -> None:
         workspace_name="test-workspace",
     )
 
-    file_ds = ml_client.datastores.get("workspacefilestore")
+    file_ds = ml_client.datastores.get("workspaceworkingdirectory")
     blob_ds = ml_client.datastores.get("workspaceblobstore")
 
     print(f"Source:  {file_ds.account_name}/{file_ds.file_share_name}")
